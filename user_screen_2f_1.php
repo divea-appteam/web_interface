@@ -6,22 +6,25 @@
 	<meta http-equiv="Content-Style-Type" content="text/css">
 	<meta http-equiv="Content-Script-Type" content="text/javascript">
 	<title>SIZKANIC</title>
-	<!--aa-->
 	<link rel="stylesheet" href="user_screen_1.css" type="text/css">
   </head>
   <body>
 	<div id="d1">
 	  <h1>図書館騒音情報</h1>
+	  <h2>2F学習スペース①</h2>
 	</div>
 	<div id="d2">
 	  <h3>騒音情報確認位置</h3>
 	  <h3 id="d4"><a href="./user_screen_1f.php">1Fメディア学習室</a></h3>
-	  <h3 id="d4"><a href="./user_screen_2f_1.php">2F学習スペース①</a></h3>
-	  <h3 id="d4"><a href="./user_screen_2f_2.php">2F学習スペース②</a></h3>
+	  <h3 id="d4">2F学習スペース①</h3>
+	  <h3 id="d4"><a href="./user_screen_1f.php">2F学習スペース②</a></h3>
 	</div>
 	<div id="d3">
-	  <h1 id="d5">先週の図書館内は『とても静か』でした<br>
-	  ありがとうございます</h1>
+	  <h1 id="d5">
+<?php
+		include("./gragh.html");
+?>
+	  </h1>
 	</div>
 
   </body>
