@@ -6,7 +6,7 @@
 	<meta http-equiv="Content-Style-Type" content="text/css">
 	<meta http-equiv="Content-Script-Type" content="text/javascript">
 	<title>SIZKANIC</title>
-	<link rel="stylesheet" href="user_screen_1.css" type="text/css">
+	<link rel="stylesheet" href="user_screen_initial.css" type="text/css">
   </head>
   <body>
 	<div id="d1">
@@ -18,6 +18,7 @@
 	  <h3 id="d4"><a href="./user_screen_1f.php">1Fメディア学習室</a></h3>
 	  <h3 id="d4">2F学習スペース①</h3>
 	  <h3 id="d4"><a href="./user_screen_1f.php">2F学習スペース②</a></h3>
+ 	　 <h3 id="d4"><a href="./user_screen_initial.html">TOPへ戻る</a></h3>
 	</div>
 	<div id="d3">
 	  <h1 id="d5">

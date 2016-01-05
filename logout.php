@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 if (isset($_SESSION["USERID"])) {
   $errorMessage = "ログアウトしました。";
 }
@@ -24,13 +25,13 @@ $_SESSION = array();
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Style-Type" content="text/css">
-    <title>SIZCANIC 管理者用ページ</title>
-    <link rel="stylesheet" href="admin_screen_1.css" type="text/css">
+    <title>サンプルアプリケーション</title>
   </head>
-  <body  id="d1">
-  <h1>ログアウト</h1>
+  <body>
+  <h1>ログイン機能　サンプルアプリケーション</h1>
   <div><?php echo $errorMessage; ?></div>
-  <a href="admin_screen_login.php">ログイン画面に戻る</a>
+  <ul>
+  <li><a href="login.php">ログイン画面に戻る</a></li>
+  </ul>
   </body>
 </html>

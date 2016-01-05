@@ -25,7 +25,6 @@
 	mysql_select_db($dbname) or die("データベース接続エラー");
 	
 	//データの取り出し
-	//sql文を現在時間を基に変更してください
 	$time = "select time from graph_data";
 	$res = mysql_query($time, $conn);
 	$data1 = array();
